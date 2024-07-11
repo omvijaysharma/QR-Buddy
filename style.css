@@ -1,0 +1,46 @@
+.big1 {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 38px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-top: 30%;
+    padding: 30px;
+    border: 5px solid #ff9d00;
+}
+.big1 p {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.big1 input {
+    font-size: 35px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.big1 button,a {
+    height: 80px;
+    width: 600px;
+    margin: 10px;
+    color: white;
+    background-color: #ff7300;
+    border-radius: 10px;
+    font-size: 48px;
+}
+#qrimage {
+    width: 600px;
+    height: auto;
+    padding: 50px;
+}
+#downloadLink {
+    background-color: #0096ff;
+}
+#downloadLink {
+    margin-left: 62px;
+    text-decoration: none;
+    padding-top: 25px;
+}
