@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+  <title>QR scanner</title>
+ 
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js
+"></script>
+
+<link rel="stylesheet" href="scan.css">
+</head>
+<body>
+      
+        <!-- background color -->
+        
+<div class="backgroundcolor">
+          
+        <!-- pages buttons -->
+          
+<div class="pagesbutton">
+            
+<a href="index.html">
+    <button id="generatorbutton">GENERATOR</button>
+</a>
+    
+<a href="scan.html">
+    <button id="readerbutton">READER</button>
+</a>
+
+</div> <!-- pages buttons -->
+        
+        <!-- pages button end and title -->
+        
+<p id="inputtitle">QR scanner</p>
+    
+        <!-- title end and image-container -->
+    
+<div class="image-container">
+            
+        <!-- image -->   
+            
+<label for="img" id="defaultimage">
+              
+        <!-- scan text -->
+              
+<div class="img-scan">scan or upload QR</div>
+            
+            <!-- scan -->
+            
+<div class="scan-line"></div>
+
+</label> <!-- image end -->
+          
+          <!-- input file -->
+          
+<input type="file" id="img" accept="image/*">
+
+</div> <!-- scan end -->
+        
+        <!-- result -->
+        
+<div class="result">
+            
+            <!-- result-container -->
+            
+<div class="result-container">
+              
+              <!-- data -->
+              
+<p class="data"></p>
+            
+            <!-- data end and copy-logo -->
+            
+<section class="copy-logo">
+                
+                <!-- copy image -->
+                
+<img src="cop.png" id="copyimg">
+
+</section> <!-- copy-logo end -->
+
+</div> <!-- result-container end -->
+</div> <!-- result end -->
+</div><!-- background color end-->
+
+
+
+<script src="scan.js"></script>
+</body>
+</html>
