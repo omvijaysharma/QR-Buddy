@@ -10,7 +10,7 @@ html, body {
 }
 
 .backgroundcolor {
-    background: linear-gradient(60deg,#000000,#ff1f00,#000000);
+    background: linear-gradient(60deg,#ff9d00,#fff100,#ff9d00);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,19 +32,19 @@ html, body {
     margin-bottom: 20px;
     border-radius: 30px;
     background: transparent;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     margin: 10px;
 }
 
 #inputtitle {
     font-size: 50px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 #textinput {
-    border: 3px solid white;
+    border: 3px solid black;
     height: 100px;
     width: 80%;
     font-size: 50px;
@@ -76,16 +76,16 @@ html, body {
     margin-bottom: 20px;
     border-radius: 30px;
     background: transparent;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
 }
 
 #downloadbutton {
     font-size: 80px;
     padding: 50px 100px;
-    border: 5px solid white;
+    border: 5px solid black;
     text-decoration: none;
     margin-top: 20px;
     border-radius: 30px;
-    color: white;
+    color: black;
 }
