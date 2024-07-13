@@ -6,18 +6,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="big1">
-        <p> Enter text or link </p>
-        <input type="text" id="input">
-        <div class="qrdiv">
-            <img src="" alt="" id="qrimage">
-        </div>
-        <div class="buttons">
-        <button onclick="generateQR()"> Generate </button>
-        <a id="downloadLink" style="display: none">Download QR</a>
-        </div>
-    </div>
+    
+        <!-- background color -->
+    
+<div class="backgroundcolor">
+        
+        <!-- pages buttons-->
+        
+<div class="pagesbutton">
+    
+<a href="index.html">
+    
+<button id="generatorbutton">GENERATOR</button>
+</a>
 
-    <script src="app.js"></script>
+<a href="scan.html">
+    
+<button id="readerbutton">READER</button>
+</a>
+
+</div> <!-- pages buttons end -->
+
+        <!-- pages button end and title -->
+        
+<p id="inputtitle">Enter text or link for QR</p>
+
+        <!-- end title and input -->
+
+<input type="text" id="textinput" placeholder="Enter text or link for QR">
+
+        <!-- end input and center div-->
+
+<div class="centerelement">
+            
+        <!-- qr image -->
+            
+<img src="qr.png" alt="QR Code Image" id="qrimage">
+
+        <!-- end qr image and generate button -->
+
+<button onclick="generateQR()" id="generatebutton">Generate</button>
+
+        <!-- end generate button and download button -->
+
+<a id="downloadbutton" style="display: none;">Download QR</a>
+
+</div> <!-- center div end -->
+</div><!-- background color end -->
+
+
+<script src="app.js"></script>
 </body>
 </html>
