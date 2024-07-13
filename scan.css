@@ -35,6 +35,10 @@ html, body {
     color: black;
     margin: 10px;
 }
+#readerbutton {
+    background-color: black;
+    color: white;
+}
 
 #inputtitle {
     font-size: 50px;
