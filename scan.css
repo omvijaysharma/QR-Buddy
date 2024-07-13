@@ -10,7 +10,7 @@ html, body {
 }
 
 .backgroundcolor {
-    background: linear-gradient(60deg, #000000, #ff1f00, #000000);
+    background: linear-gradient(60deg,#ff9d00,#fff100,#ff9d00);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,27 +31,27 @@ html, body {
     font-size: 60px;
     border-radius: 30px;
     background: transparent;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     margin: 10px;
 }
 
 #inputtitle {
     font-size: 50px;
-    color: white;
+    color: black;
     position: fixed;
     top: 375px;
 }
 
 .image-container {
     position: relative;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 50px;
 }
 
 .img-scan {
     font-size: 50px;
-    color: white;
+    color: black;
 }
 
 #defaultimage {
@@ -106,7 +106,7 @@ html, body {
     width: 800px;
     position: fixed;
     top: 1400px;
-    border-top: 2px solid white;
+    border-top: 2px solid black;
 }
 
 .result-container {
@@ -130,7 +130,7 @@ html, body {
     overflow-x: scroll;
     font-size: 50px;
     font-weight: 450;
-    color: white;
+    color: black;
 }
 
 .result-container .copy-logo {
