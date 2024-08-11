@@ -10,7 +10,7 @@ html, body {
 }
 
 .backgroundcolor {
-    background: linear-gradient(60deg,#ff9d00,#fff100,#ff9d00);
+    background: linear-gradient(60deg, #ff9d00, #fff100, #ff9d00);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,19 @@ html, body {
 }
 
 button {
-    width: 100px;
-    height: 40px;
-    font-size: 15px;
+    width: 120px; /* Increased width */
+    height: 50px; /* Increased height */
+    font-size: 16px; /* Increased font size */
     background: transparent;
     border: 3px solid black;
     color: black;
     margin: 10px;
+    transition: background 0.3s, color 0.3s; /* Added transition */
+}
+
+button:hover {
+    background: black; /* Change background on hover */
+    color: white; /* Change text color on hover */
 }
 
 .pagesbutton {
@@ -35,7 +41,7 @@ button {
 }
 
 #inputtitle {
-    font-size: 20px;
+    font-size: 24px; /* Increased font size */
     margin-bottom: 20px;
     color: black;
 }
@@ -50,6 +56,11 @@ button {
     background: #4c4c4c;
     backdrop-filter: blur(5px);
     color: white;
+    transition: border-color 0.3s; /* Added transition */
+}
+
+#textinput:focus {
+    border-color: #ff9d00; /* Change border color on focus */
 }
 
 .centerelement {
@@ -155,4 +166,30 @@ button {
     align-items: center;
     height: 100%;
     padding: 0 5px;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    button {
+        width: 150px; /* Increased button width for larger screens */
+        height: 60px; /* Increased button height for larger screens */
+        font-size: 18px; /* Increased font size for larger screens */
+    }
+
+    #inputtitle {
+        font-size: 28px; /* Increased font size for larger screens */
+    }
+
+    #textinput {
+        width: 70%; /* Adjusted width for larger screens */
+        font-size: 24px; /* Increased font size for larger screens */
+    }
+
+    .data {
+        font-size: 22px; /* Increased font size for data display */
+    }
+
+    .result {
+        width: 400px; /* Adjusted width for larger screens */
+    }
 }
